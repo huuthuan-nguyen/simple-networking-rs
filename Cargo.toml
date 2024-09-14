@@ -1,4 +1,6 @@
-workspace = { members = [ "http", "http-server", "tcp-client","tcp-server"] }
+[workspace]
+members = ["http", "http-server", "tcp-client", "tcp-server"]
+
 [package]
 name = "simple-networking-rs"
 version = "0.1.0"
